@@ -20,7 +20,7 @@ This is the first layer (rather the layer furthest away from what a backend engi
 
 I might preface that one of the things you may way to know is that the Network Interface Controller/Network Card (NIC) sits in this layer. When a packet is sent to your machine, it is the job of the NIC to fetch the packet and check if it's meant to be sent to you or not.
 
-Like I mentioned, there is very little for a backend engineer to do at this layer. No particular bottlenecks can be easily diagnosed with backend engineering skillsets. Although, for those who are interested in packet sniffing or doing some kind of security testing, it might be worth deep diving a little bit more.
+Like I mentioned, there is very little for a backend engineer to do at this layer. No particular bottlenecks can be easily diagnosed with backend engineering skill-sets. Although, for those who are interested in packet sniffing or doing some kind of security testing, it might be worth deep diving a little bit more.
 
 ### Datalink layer
 
