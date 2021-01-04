@@ -4,4 +4,4 @@ I am going to briefly discuss the OSI model and what each of the layers are ulti
 
 ## What is the OSI model?
 
-The *Open System Interconnect* or OSI (for short) forms the backbone of the internet as we know and use today.
+The *Open System Interconnection* or OSI (for short) forms the backbone of the internet as we know and use today.
