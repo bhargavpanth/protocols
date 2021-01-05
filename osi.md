@@ -12,7 +12,7 @@ Think of the OSI as the framework on which the internet operates on. Gaining an 
 
 ## Layers of the OSI model
 
-The OSI model consists of 7 layers. Starting from the underlying physical connections (Physical layer) up until the point where we handle HTTP requests (Application layer). Here's a quick summary of what each of the layers are responsible for (again, from a backend engineer's perspective).
+The OSI model consists of 7 layers. Starting from the underlying physical connections (Physical layer) up until the point where we handle HTTP requests (Application layer). Here's a quick summary of what each of the layers are responsible for (again, from a backend engineer's perspective). Think of this model as the Matrayoshka doll.
 
 ### Physical layer
 
@@ -25,6 +25,8 @@ Like I mentioned, there is very little for a backend engineer to do at this laye
 ### Datalink layer
 
 This layer sits right above the Physical layer. From the TCP/IP perspective, this layer can be thought of as the abstraction responsible for fetching the MAC address for a given IP address. This typically is done with the help of protocols such as Address Resolution Protocol (ARP) and Reverse Address Resolution Protocol (RARP) for incoming packets.
+
+This layer is again slightly far from a backend developer and anyone wishing to build application at the top most layer, may find no use understanding.
 
 ### Network layer
 ### Transport layer
