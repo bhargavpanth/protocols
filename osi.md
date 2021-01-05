@@ -29,6 +29,11 @@ This layer sits right above the Physical layer. From the TCP/IP perspective, thi
 This layer is again slightly far from a backend developer and anyone wishing to build application at the top most layer, may find no use understanding.
 
 ### Network layer
+
+The network layer is majorly responsible for two things on the TCP/IP stack. The concept of an IP address exists in this layer. And this layer chops down the frames that it receives from the Transport layer. The IP part of the TCP/IP exists at this layer. For the frames that this layer receives from the transport layer, this layer further chops them into packets and adds the source and destination IP addresses.
+
+Now, there are two commonly used standards for IP addressed - IPv4 and IPv6. Whilst the difference might not make a lot of sense for backend devs, it is still important to understand why they were introduced. *IPv4 has scalability issues*. It requires a host of other add-on protocols like ICMP to function. On the whole, a lot of network engineering specifics to consider.
+
 ### Transport layer
 ### Session layer
 ### Presentation layer
