@@ -35,6 +35,9 @@ The network layer is majorly responsible for two things on the TCP/IP stack. The
 Now, there are two commonly used standards for IP addressed - IPv4 and IPv6. Whilst the difference might not make a lot of sense for backend devs, it is still important to understand why they were introduced. *IPv4 has scalability issues*. It requires a host of other add-on protocols like ICMP to function. On the whole, a lot of network engineering specifics to consider.
 
 ### Transport layer
+
+Things from this layer gets rather interesting. Transport layer is where protocols like TCP and UDP exist.
+
 ### Session layer
 ### Presentation layer
 ### Application layer
