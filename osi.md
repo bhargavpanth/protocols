@@ -36,7 +36,7 @@ Now, there are two commonly used standards for IP addressed - IPv4 and IPv6. Whi
 
 ### Transport layer
 
-Things from this layer gets rather interesting. Transport layer is where protocols like TCP and UDP exist.
+Things from this layer gets rather interesting. Transport layer is where protocols like TCP and UDP exist. This would be a layer where hardcore backend engineers might be interested. Given that most of the HTTP clients and already take care of things going on at this layer, it might be helpful to know what goes on at this layer to find those mystery optimisation opportunities.
 
 ### Session layer
 ### Presentation layer
